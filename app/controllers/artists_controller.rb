@@ -12,6 +12,7 @@ class ArtistsController < ApplicationController
     if @preference.allow_create_artists
       @artist = Artist.new
     else
+      redirect_to artists_
   end
 
   def create
