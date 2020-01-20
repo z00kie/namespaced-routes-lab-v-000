@@ -9,6 +9,7 @@ class ArtistsController < ApplicationController
 
   def new
     @preference = Preference.first
+    if @preference.allow_
   end
 
   def create
