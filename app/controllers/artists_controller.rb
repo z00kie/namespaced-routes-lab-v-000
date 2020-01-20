@@ -8,7 +8,7 @@ class ArtistsController < ApplicationController
   end
 
   def new
-    @artist = Artist.new
+    @preference = Preference.first
   end
 
   def create
