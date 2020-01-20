@@ -1,1 +1,2 @@
-class Admin::PreferencesController
+class Admin::PreferencesController < ApplicationController
+  
